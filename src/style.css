@@ -1,0 +1,165 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8ABC9A;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section{
+  
+}
+
+
+.inputE{
+    display: block;
+    font-size: 1rem;
+    flex-direction: column;
+    background-color:  rgb(255, 255, 255);
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin: auto;
+}
+.inputP{
+    display: block;
+    font-size: 1rem;
+    flex-direction: column;
+    background-color:  rgb(255, 255, 255);
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.yogapp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: auto;
+  
+}
+.imgPerfil{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: auto;
+    max-width: 250px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: auto;
+}
+.button{
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border: 1px solid #f2f2f2;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    min-width: 150px;
+    border-radius: 20px;
+    display: block;
+    font-size: 1rem;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 10px;
+  
+}
+.titulo{
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding: 20px;
+  font-size: 30px;
+  flex-wrap: wrap;
+  margin: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin:auto;
+    
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .header-box {
+    padding: 10px 0;
+  }
+
+  .yogapp {
+      margin: 10px 0px;
+    
+  }
+  .inputE {
+    text-align: center;
+  }
+  .inputP {
+      text-align: center;
+    }
+
+  .button {
+    min-width: 150px;
+    padding: 5px;
+  }
+  .titulo{
+    text-align: center;
+  
+    }
+}
+.post{
+  display: block;
+  flex-direction: column;
+  margin: 50px;
+  padding: 50px;
+  background-color: rgb(231, 225, 225);
+  max-width: 500px;
+
+}
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-box {
+      padding: 10px 0;
+    }
+  
+    .yogapp {
+      max-width: 260px;
+    
+    }
+  
+    .inputE {
+      text-align: center;
+    }
+    .inputP {
+        text-align: center;
+      }
+    .button {
+      max-width: 150px;
+      padding: 5px;
+    }
+    .titulo{
+      text-align: center;
+    
+      }
+   
+    }
