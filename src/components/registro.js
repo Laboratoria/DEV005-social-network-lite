@@ -16,6 +16,9 @@ function registro(navegar) {
   inputEmail.className = 'inputE';
   inputEmail.type = 'email';
   inputEmail.id = 'inputEmail';
+  const label = document.createElement('label');
+  label.setAttribute('for', 'inputEmail');
+  inputEmail.appendChild(label);
 
   const inputPass = document.createElement('input');
   inputPass.className = 'inputP';
@@ -33,22 +36,13 @@ function registro(navegar) {
   buttonRegistrar.id = 'button';
   buttonRegistrar.className = 'button';
   buttonRegistrar.addEventListener('click', () => {
-    // console.log(inputEmail.value, inputPass.value);
-
-    if (register(inputEmail.value, inputPass.value) === true) {
+    register(inputEmail.value, inputPass.value).then((exito) => {
       navegar('/');
-    }
-
-    if (register(inputEmail.value, inputPass.value) === 'email invalido') {
-      alert('Datos incorrectos');
-    }
-    if (register(inputEmail.value, inputPass.value) === 'usuario existente') {
-      alert('Usuario ya registrado');
+      alert(exito);
+    }).catch((errores) => {
+      alert(errores);
       navegar('/');
-    }
-    if (register(inputPass.value) === '6 caracter minimo') {
-      alert('Debe ingresar al menos 6 caracteres');
-    }
+    });
   });
   section.append(div, img, mensj, inputEmail, inputPass, buttonRegistrar);
   return section;

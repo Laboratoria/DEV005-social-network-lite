@@ -6,7 +6,7 @@ function inicio(navegar) {
 
   const img = document.createElement('img');
   img.className = 'yogapp';
-  img.src = 'img/Yogapp.png';
+  img.src = '/img/Yogapp.png';
 
   const msjBv = document.createElement('h1');
   msjBv.textContent = 'Bienvenidxs a Yogapp! comunidad abierta para lxs Yogui del mundo.';
@@ -17,26 +17,30 @@ function inicio(navegar) {
   msjPreg.className = 'texto';
 
   const emailImput = document.createElement('input');
-  emailImput.required = true;
   emailImput.placeholder = 'Correo Electrónico';
   emailImput.className = 'inputE';
   emailImput.type = 'email';
   emailImput.id = 'inputLogin';
+  const label1 = document.createElement('label');
+  label1.setAttribute('for', 'inputLogin');
+  emailImput.appendChild(label1);
 
   const inputPassword = document.createElement('input');
   inputPassword.type = 'password';
   inputPassword.className = 'inputP';
   inputPassword.placeholder = 'Contraseña';
   inputPassword.id = 'inputPassLogin';
+  const label = document.createElement('label');
+  label.setAttribute('for', 'inputPassLogin');
+  inputPassword.appendChild(label);
 
   const buttonIng = document.createElement('button');
   buttonIng.textContent = 'Ingresa';
   buttonIng.className = 'button';
   buttonIng.type = 'button';
-  buttonIng.id = 'ingresar';
+  buttonIng.id = 'buttonIngresar';
   buttonIng.addEventListener('click', () => {
-    // navegar('/perfil');
-    console.log('logueado');
+  // console.log('logueado');
     if (login(emailImput.value, inputPassword.value) === true) {
       navegar('/perfil');
     } else {
