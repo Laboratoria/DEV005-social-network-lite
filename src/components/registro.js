@@ -33,7 +33,7 @@ function registro(navegar) {
   const buttonRegistrar = document.createElement('button');
   buttonRegistrar.textContent = 'Registrar';
   buttonRegistrar.type = 'button';
-  buttonRegistrar.id = 'button';
+  buttonRegistrar.id = 'buttonRegistrar';
   buttonRegistrar.className = 'button';
   buttonRegistrar.addEventListener('click', () => {
     register(inputEmail.value, inputPass.value).then((exito) => {

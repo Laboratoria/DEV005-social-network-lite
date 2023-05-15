@@ -1,15 +1,16 @@
 // importa los componets
 import inicio from './components/inicio.js';
 import registro from './components/registro.js';
-import perfil from './components/perfil.js';
+import muro from './components/muro.js';
 import error from './components/error.js';
+
 // root=html
 const root = document.getElementById('root');
 // rutas para navegar
 const ruta = [
   { path: '/', component: inicio },
   { path: '/registro', component: registro },
-  { path: '/perfil', component: perfil },
+  { path: '/muro', component: muro },
   { path: '/error', component: error },
 ];
 
