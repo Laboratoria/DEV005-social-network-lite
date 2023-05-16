@@ -7,8 +7,8 @@ Yogapp sirve para intercambio de saberes, o actividades en conjuto, programar un
 
 
 ### 5.3 Historias de usuario
-El usuario ingresa y se registra con un correo electronico y una contraseña de minimo 6 caracteres, una vez ya registrado el usuario debe ingresar con sus datos ya registrados a login, para poder acceder al muro de inicio.
-Cuando ingresas al muro, tenes la opción de poder escribir un post siempre y cuando estes logeado. Si el usuario no esta de acuerdo con este post , tiene la opción de poder editarlo o directamente borrarlo.
+El usuario ingresa y se registra con un correo electrónico y una contraseña de minimo 6 caracteres, una vez ya registrado el usuario debe ingresar con sus datos a login, para poder acceder al muro de inicio.
+Cuando el usuario ingresa al muro, tiene la opción de poder escribir un post siempre y cuando estes logeado. Si el usuario no esta de acuerdo con este post , tiene la opción de poder editarlo o directamente borrarlo.
 Si ya no desea estar mas linea , el usuario tiene la opción de precionar el boton "salir" y cierrra la sesión automaticamente, dirigiendo al usuario a la pagina de inicio.
 
 Criterios de aceptación
