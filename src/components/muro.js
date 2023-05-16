@@ -12,7 +12,7 @@ function muro(navegar) {
 
   const imgPerfil = document.createElement('img');
   imgPerfil.className = 'imgPerfil';
-  imgPerfil.src = 'img/logo.yogapp.jpeg';
+  imgPerfil.src = '../img/logo.yogapp.jpeg';
   imgPerfil.alt = 'foto logo';
 
   const textoPerfil = document.createElement('p');
@@ -104,7 +104,7 @@ function muro(navegar) {
       p.innerHTML = element.content;
 
       const imgEdit = document.createElement('img');
-      imgEdit.src = 'img/editar.png';
+      imgEdit.src = '../img/editar.png';
       imgEdit.alt = 'logo editar';
       imgEdit.className = 'imgEdit';
 
@@ -127,7 +127,7 @@ function muro(navegar) {
       buttonEdit.appendChild(imgEdit);
 
       const imgBorrar = document.createElement('img');
-      imgBorrar.src = 'img/borrar.png';
+      imgBorrar.src = '../img/borrar.png';
       imgBorrar.alt = 'logo borrar';
       imgBorrar.className = 'imgBorrar';
 

@@ -14,7 +14,7 @@ function error(navegar) {
   });
 
   const imagenError = document.createElement('img');
-  imagenError.src = '/img/errorPage.jpg';
+  imagenError.src = '../img/errorPage.jpg';
   imagenError.className = 'imagenError';
 
   pagError.append(imagenError, titulo, buttonRegresar);
