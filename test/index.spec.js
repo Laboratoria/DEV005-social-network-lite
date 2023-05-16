@@ -5,6 +5,7 @@ import inicio from '../src/components/inicio.js';
 import register from '../src/components/registro.js';
 import muro from '../src/components/muro.js';
 import error from '../src/components/error.js';
+import { getLoggedInUser } from '../src/lib/services.js';
 
 describe('inicio', () => {
   it('debería ser una función', () => {
@@ -104,14 +105,7 @@ describe('muro', () => {
       expect(inputPost.value).toEqual('tex');
     }
   });
-  it('debes estar en linea para postear ', () => {
-    const DOM = document.createElement('div');
-    DOM.append(muro());
-    const email = document.querySelector('#inputLogin');
-    const getLoggedInUser = jest.fn();
-    getLoggedInUser(email);
-    expect(getLoggedInUser).toHaveBeenCalled();
-  });
+
   it('despues del click publicar, queda el post guardado', () => {
     const DOM = document.createElement('div');
     const buttonPost = document.createElement('button');
@@ -184,5 +178,10 @@ describe('error', () => {
     const buttonRegresar = DOM.querySelector('#buttonRegresar');
     buttonRegresar.click();
     expect(navegar).toHaveBeenLastCalledWith('/');
+  });
+});
+describe('getLoggedInUser', () => {
+  it('deberia ser una funcion', () => {
+    expect(typeof getLoggedInUser).toBe('function');
   });
 });
