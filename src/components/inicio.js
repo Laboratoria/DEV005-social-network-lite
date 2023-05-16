@@ -7,7 +7,7 @@ function inicio(navegar) {
 
   const img = document.createElement('img');
   img.className = 'yogapp';
-  img.src = '/img/Yogapp.png';
+  img.src = '../img/Yogapp.png';
   img.alt = 'Foto logo';
 
   const msjBv = document.createElement('h1');
