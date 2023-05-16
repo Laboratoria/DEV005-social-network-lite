@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "https://cclaudiavs.github.io/DEV005-social-network-lite/src",
+            "request": "launch",
+            "url": "https://cclaudiavs.github.io/DEV005-social-network-lite/src"
+        }
+    ]
+}

@@ -29,6 +29,7 @@ function registro(navegar) {
   const img = document.createElement('img');
   img.className = 'yogapp';
   img.src = '/img/Yogapp.png';
+  img.alt = 'Foto logo';
 
   const buttonRegistrar = document.createElement('button');
   buttonRegistrar.textContent = 'Registrar';
