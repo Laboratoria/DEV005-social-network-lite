@@ -2,8 +2,8 @@
 
 ### 5.2 Definición del producto
  
-Yogapp es una aplicación dirigida a practicantes de yoga, tanto fisico como espirutual, o a personas interesadas en cambiar su estilo de vida.
-Yogapp sirve de intercambio de saberes, o actividades en conjuton, programar una reunion o practica de yoga y meditacion, Yogapp es para crear comunidad y conciencia , habitos saludables , recomendaciones de libros y poder hacer el yoga un estilo de vida mas que una práctica física.
+Yogapp es una aplicación dirigida a prácticantes de yoga tanto físico como espirutual, o/a personas interesadas en cambiar su estilo de vida.
+Yogapp sirve para intercambio de saberes, o actividades en conjuto, programar una reunión , charlas o rondas de conocimientos, se pueden organizar clases o práctica de yoga y meditacion, Yogapp es para crear comunidad y conciencia , hábitos saludables , recomendaciones de libros y poder hacer del yoga un estilo de vida mas que una práctica física.
 
 
 ### 5.3 Historias de usuario
