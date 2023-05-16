@@ -1,0 +1,368 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8ABC9A;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head{
+  background-color: #8ABC9A;
+  color: #8ABC9A;
+}
+
+/* perfil*/
+
+.nombreApp{
+  position: relative;
+  left: 130px;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: #21076d;
+  margin-top: 20px;
+}
+.buttonSalir{
+  position: relative;
+  left: 130px;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  font-family: "Lato", sans-serif;
+  border: 1px solid #f2f2f2;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  min-width: 80px;
+  border-radius: 20px;
+  border-radius: 100px;
+  margin-top: 10px;
+
+}
+.container{
+  margin-top: 10px;
+  display: flex;
+  
+}
+
+.imgPerfil{
+  flex-direction:column;
+  display: flex;
+  max-width: 200px;
+  border: 1px solid #f2f2f2;
+  color: white;
+  border-radius: 80px;
+
+
+}
+.inputPost{
+  background-color: beige;
+  width: 70%;
+  margin: 20px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+
+}
+.parrafoPerfil{
+  display: flex;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 7px;
+  font-size: 25px;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-top: 25px;
+  color:   #21076d ; 
+}
+.textoPerfil{ 
+  display: flex;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 9px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  margin:auto;
+  margin-top: 10px;
+  color:#373837 ;
+  
+}
+.divCont{
+  display: flex;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  margin: 20px;
+
+}
+.usuarioPost{
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  background-color: beige;
+  padding: 5px;
+  position: relative;
+  right: 45px;
+  color:#21076d;
+
+}
+.casilleroPost{
+  font-size: 16px;
+  background-color: beige;
+  width: 80%;
+  margin: 0%;
+  overflow: scroll;
+  
+}
+.containerPost{
+  display:flex;
+   padding: 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: auto;
+
+}
+.imgEdit{
+  max-width: 20px;
+  background: rgb(255, 255, 255);
+
+}
+.imgBorrar{
+  max-width: 20px;
+  background: rgb(255, 255, 255);
+  
+}
+.divButton{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  background:  beige;
+  margin-top: 20px;
+}
+.buttonEdit{
+  padding: 6px;
+  font-size: 16px;
+  min-width: 50px;
+  border-radius: 90px;
+  background: rgb(255, 255, 255);
+  border-color: #21076d;
+}
+.buttonBorrar{
+  padding: 6px;
+  font-size: 16px;
+  min-width: 50px;
+  border-radius: 90px;
+  background: rgb(255, 255, 255);
+  border-color: #21076d;
+ 
+}
+.tituloModal{
+  font-family: "Lato", sans-serif;
+  background: #f2f2f2;
+}
+.mensajeModal{
+  font-family: "Lato", sans-serif;
+  background: #f2f2f2;
+}
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContenido {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+}
+.eliminarModal{
+  margin: 10px;
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border: 1px solid #f2f2f2;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
+.cancelarModal {
+    margin: 10px;
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border: 1px solid #f2f2f2;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+
+
+/*inicio y registro*/
+.inputE{
+    display: block;
+    flex-direction: column;
+    background-color:  rgb(255, 255, 255);
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin: auto;
+}
+.inputP{
+    display: block;
+    flex-direction: column;
+    background-color:  rgb(255, 255, 255);
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+
+.yogapp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: auto;
+  
+}
+.button{
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border: 1px solid #f2f2f2;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    min-width: 150px;
+    border-radius: 20px;
+    display: block;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+
+/*pag error*/
+  
+}
+.imagenError{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    color: white;
+    border-radius: 50px;
+  
+}
+.tituloError{
+  display: flex;
+  font-family: "Lato", sans-serif;
+  margin-top: 50px;
+  font-size: 30px;
+  padding: 50px;
+}
+.titulo{
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding: 20px;
+  font-size: 30px;
+  flex-wrap: wrap;
+  margin: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin:auto;
+    
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .header-box {
+    padding: 10px 0;
+  }
+  .divCont{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .yogapp {
+      margin: 10px 0px;
+    
+  }
+  .inputE {
+    text-align: center;
+  }
+  .inputP {
+      text-align: center;
+    }
+
+  .button {
+    min-width: 150px;
+    padding: 5px;
+  }
+  .titulo{
+    text-align: center;
+  
+    }
+
+}
+
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-box {
+      padding: 10px 0;
+    }
+  
+    .yogapp {
+      max-width: 260px;
+    
+    }
+  
+    .inputE {
+      text-align: center;
+    }
+    .inputP {
+        text-align: center;
+      }
+    .button {
+      max-width: 150px;
+      padding: 5px;
+    }
+    .titulo{
+      text-align: center;
+
+    
+      }
+    .casilleroPost{
+      width: 100%;
+    }
+
+  
+    }
