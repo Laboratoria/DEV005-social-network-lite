@@ -1,4 +1,5 @@
 import { register } from '../lib/services.js';
+import yogapp from '../img/yogapp.png';
 
 function registro(navegar) {
   const section = document.createElement('form');
@@ -26,10 +27,10 @@ function registro(navegar) {
   inputPass.type = 'password';
   inputPass.id = 'inputPass';
 
-  const img = document.createElement('img');
-  img.className = 'yogapp';
-  img.src = '../img/Yogapp.png';
-  img.alt = 'Foto logo';
+  const nodoImg = document.createElement('img');
+  nodoImg.className = 'yogapp';
+  nodoImg.src = yogapp;
+  nodoImg.alt = 'Foto logo';
 
   const buttonRegistrar = document.createElement('button');
   buttonRegistrar.textContent = 'Registrar';
@@ -45,7 +46,7 @@ function registro(navegar) {
       navegar('/');
     });
   });
-  section.append(div, img, mensj, inputEmail, inputPass, buttonRegistrar);
+  section.append(div, nodoImg, mensj, inputEmail, inputPass, buttonRegistrar);
   return section;
 }
 export default registro;
